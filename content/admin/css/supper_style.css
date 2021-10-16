@@ -1,0 +1,15 @@
+.dropdown-menu-item{
+    position: relative;
+    
+}
+.dropdown-list{
+    position: absolute;
+    z-index: 100;
+    width: 200px;
+    top: 100%;
+    background: #fff;
+    display: none;
+}
+.dropdown-menu-item :hover .dropdown-list{
+    display: block;
+}

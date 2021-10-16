@@ -1,0 +1,41 @@
+.information{
+    width: 600px;
+    margin: 50px auto;
+    display: block;
+    position: relative;
+}
+.information .avatar-img{
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    /*border: 1px solid silver;*/
+    border-radius: 50%;
+}
+.avatar-img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.information .link-infomation{
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+}
+.link-infomation .link{
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    flex: 1 0 33%;
+}
+.thembaidang{
+    width: 100%;
+    padding: 10px 20px;
+}
+.thembaidang tr td{
+    width: 100%;
+    line-height: 50px;
+}
+.thembaidang tr td label{
+   
+}
